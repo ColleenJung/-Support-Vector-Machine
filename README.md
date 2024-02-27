@@ -17,7 +17,7 @@ The goal of an SVM (Support Vector Machine) model is to separate datasets into d
 <img width="480" alt="image" src="https://github.com/ColleenJung/-Support-Vector-Machine/assets/119357849/05053453-84c6-45a9-ad65-f8e551af4733">
 
 # The Regularization Parameter in SVM
-- In SVM models, the regularization parameter `C` is used to balance margin width against misclassification.
+- In SVM models, `C` is the regularization parameter that controls the **trade-off between the slack variable penalty (misclassifications) and width of the margin.**
 - A **small `C`** allows for a wider margin and tolerates more misclassifications
 - while a **larger `C`** seeks fewer misclassifications, potentially at the cost of a narrower margin.
 - The optimization function, `L`, combines the weight vector norm and the sum of slack variables, scaled by `C`.
