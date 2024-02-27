@@ -40,8 +40,8 @@ Y ≈ β0 + β1X1 + β2X2 + …+ βpXp
 [Regularization in Machine Learning](https://towardsdatascience.com/regularization-in-machine-learning-76441ddcf99a)
 
 # The sklearn.svm.LinearSVC() Function
-- Since the number of observations is usually greater than the number of features, we set **dual = False** per documentation advice.
-- Although dual = False does not use random numbers, we still set **random_state** to a positive integer just in case.
+- Since the number of observations is usually greater than the number of features, we set **`dual = False`** per documentation advice.
+- Although dual = False does not use random numbers, we still set **`random_state`** to a positive integer just in case.
 - The Intercept 𝑤_0  value can be retrieved from the **`intercept_`** object
 - The array of coefficients 𝐰 can be retrieved from the **`coef_`** object
 - The hyperplane is constructed from the equation 𝑤_0+𝐰^𝑡 𝐱=𝟎
